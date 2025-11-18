@@ -14,5 +14,7 @@ Pod::Spec.new do |s|
   s.source_files = 'SVProgressHUD/*.{h,m}'
   s.framework    = 'QuartzCore'
   s.resources    = 'SVProgressHUD/SVProgressHUD.bundle'
+  s.resource_bundles = {'SVProgressHUD' => ['SVProgressHUD/PrivacyInfo.xcprivacy']}
+
   s.requires_arc = true
 end
