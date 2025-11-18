@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.summary  = 'A clean and lightweight progress HUD for your iOS and tvOS app.'
   s.homepage = 'https://github.com/SVProgressHUD/SVProgressHUD'
   s.authors   = { 'frank' => 'hello@samvermette.com', 'Tobias Totzek' => 'tobias@totzek.me' }
-  s.source   = { :git => 'https://github.com/frank-bao/SVProgressHUD.git', :tag => 2.3.1-xcprivacy-changeFromIOS12toIOS11}
+  s.source   = { :git => 'https://github.com/frank-bao/SVProgressHUD.git', :tag => '2.3.1-xcprivacy-changeFromIOS12toIOS11'}
 
   s.description = 'SVProgressHUD is a clean and easy-to-use HUD meant to display the progress of an ongoing task on iOS and tvOS. The success and error icons are from Freepik from Flaticon and are licensed under Creative Commons BY 3.0.'
 
